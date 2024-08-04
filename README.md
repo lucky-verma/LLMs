@@ -1,81 +1,49 @@
-# ProjectTemplate-Python
+# NLP Learning Journey
 
-[![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/xinntao/HandyView.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/xinntao/HandyView/context:python)
-[![download](https://img.shields.io/github/downloads/xinntao/Real-ESRGAN/total.svg)](https://github.com/xinntao/Real-ESRGAN/releases)
-[![Open issue](https://isitmaintained.com/badge/open/xinntao/basicsr.svg)](https://github.com/xinntao/basicsr/issues)
-[![PyPI](https://img.shields.io/pypi/v/basicsr)](https://pypi.org/project/basicsr/)
-[![LICENSE](https://img.shields.io/github/license/xinntao/basicsr.svg)](https://github.com/xinntao/BasicSR/blob/master/LICENSE/LICENSE)
-[![python lint](https://github.com/xinntao/BasicSR/actions/workflows/pylint.yml/badge.svg)](https://github.com/xinntao/BasicSR/blob/master/.github/workflows/pylint.yml)
-[![Publish-pip](https://github.com/xinntao/BasicSR/actions/workflows/publish-pip.yml/badge.svg)](https://github.com/xinntao/BasicSR/blob/master/.github/workflows/publish-pip.yml)
-[![gitee mirror](https://github.com/xinntao/BasicSR/actions/workflows/gitee-mirror.yml/badge.svg)](https://github.com/xinntao/BasicSR/blob/master/.github/workflows/gitee-mirror.yml)
+This repository documents my journey of learning various topics in Natural Language Processing (NLP). Each folder represents a different NLP concept or technique, containing Jupyter notebooks, code examples, and resources related to that topic.
 
-[English](README.md) **|** [简体中文](README_CN.md) &emsp; [GitHub](https://github.com/xinntao/ProjectTemplate-Python) **|** [Gitee码云](https://gitee.com/xinntao/ProjectTemplate-Python)
+## Structure
 
-## File Modification
+- Each major topic has its own folder
+- Inside each folder:
+  - Jupyter notebooks with code examples and explanations
+  - A README.md file summarizing key points and resources
 
-1. Setup *pre-commit* hook
-    1. If necessary, modify `.pre-commit-config.yaml`
-    1. In the repository root path, run
-    > pre-commit install
-1. Modify the `.gitignore` file
-1. Modify the `LICENSE` file
-    This repository uses the *MIT* license, you may change it to other licenses
-1. Modify the *setup* files
-    1. `setup.cfg`
-    1. `setup.py`, especially the `basicsr` keyword
-1. Modify the `requirements.txt` files
-1. Modify the `VERSION` file
+## Topics Covered
 
-## GitHub Workflows
+1. [Topic Name 1](./topic-name-1)
+   - Brief description of the topic
+   - Key concepts learned
 
-1. [pylint](./github/workflows/pylint.yml)
-1. [gitee-repo-mirror](./github/workflow/gitee-repo-mirror.yml) - Support Gitee码云
-    1. Clone GitHub repo in the [Gitee](https://gitee.com/) website
-    1. Modify [gitee-repo-mirror](./github/workflow/gitee-repo-mirror.yml)
-    1. In Github *Settings* -> *Secrets*, add `SSH_PRIVATE_KEY`
+2. [Topic Name 2](./topic-name-2)
+   - Brief description of the topic
+   - Key concepts learned
 
-## Other Procedures
+<!-- Add more topics as you learn them -->
 
-1. The `description`, `website`, `topics` in the main page
-1. Support Chinese documents, for example, `README_CN.md`
+## Resources
 
-## Emoji
+- [Book/Course Name 1](link-to-resource)
+- [Book/Course Name 2](link-to-resource)
 
-[Emoji cheat-sheet](https://github.com/ikatyang/emoji-cheat-sheet)
+## Progress Tracker
 
-| Emoji | Meaning |
-| :---         |     :---:      |
-| :rocket:   | Used for [BasicSR](https://github.com/xinntao/BasicSR) Logo |
-| :sparkles: | Features |
-| :zap: | HOWTOs |
-| :wrench: | Installation / Usage |
-| :hourglass_flowing_sand: | TODO list |
-| :turtle: | Dataset preparation |
-| :computer: | Commands |
-| :european_castle: | Model zoo |
-| :memo: | Designs |
-| :scroll: | License and acknowledgement |
-| :earth_asia: | Citations |
-| :e-mail: | Contact |
-| :m: | Models |
-| :arrow_double_down: | Download |
-| :file_folder: | Datasets |
-| :chart_with_upwards_trend: | Curves|
-| :eyes: | Screenshot |
-| :books: |References |
+| Date | Topic | Status |
+|------|-------|--------|
+| YYYY-MM-DD | Topic Name 1 | Completed |
+| YYYY-MM-DD | Topic Name 2 | In Progress |
 
-## Useful Image Links
+## Goals
 
-<img src="https://colab.research.google.com/assets/colab-badge.svg" height="28" alt="google colab logo">  Google Colab Logo <br>
-<img src="https://upload.wikimedia.org/wikipedia/commons/8/8d/Windows_darkblue_2012.svg" height="28" alt="google colab logo">  Windows Logo <br>
-<img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Logo-ubuntu_no%28r%29-black_orange-hex.svg" alt="Ubuntu" height="24">  Ubuntu Logo <br>
+- [ ] Complete X number of topics by [date]
+- [ ] Implement a project using techniques from [specific topics]
+- [ ] Contribute to an open-source NLP project
 
-## Other Useful Tips
+## Notes
 
-1. `More` drop-down menu
-    <details>
-    <summary>More</summary>
-    <ul>
-    <li>Nov 19, 2020. Set up ProjectTemplate-Python.</li>
-    </ul>
-    </details>
+- This README will be updated regularly as I progress through different NLP topics.
+- Feel free to explore the folders for detailed notes and code examples on each topic.
+
+## Contact
+
+If you have any questions or suggestions, feel free to reach out to me at [your-email@example.com].
